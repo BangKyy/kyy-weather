@@ -1,4 +1,4 @@
-# kyy Weather Project
+# Kyy Weather Project
 
 ## Description
 
@@ -10,9 +10,9 @@ Before you start, ensure you have your own [OpenWeather API-Key](http://openweat
 
 ## Contact us
 
-* Email: xenemies.27@gmail.com
-* Instagram:
-* Youtube: 
+* Email: [@Kyy](xenemies.27@gmail.com)
+* Instagram: [kyy.rip](https://instagram.com/kyy.rip?igshid=YmMyMTA2M2Y=)
+* Youtube: [Xenemies 27](https://www.youtube.com/channel/UCNtVKQZIVFwFn0sfZfQCgbg)
 
 ## Built With
 
