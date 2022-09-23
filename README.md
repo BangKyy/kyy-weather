@@ -6,7 +6,7 @@ kyy weather project is a site to find out the temperature in the area you choose
 
 ## Installation
 
-Before you start, ensure you have your own [OpenWeather API-Key] (http://openweathermap.org/price) to be able to retrive the weather data.
+Before you start, ensure you have your own [OpenWeather API-Key](http://openweathermap.org/price) to be able to retrive the weather data.
 
 ## Contact us
 
