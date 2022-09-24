@@ -28,6 +28,7 @@ Before you start, ensure you have your own [OpenWeather API-Key](http://openweat
 <img align="left" alt="" width="30px" src="https://cdn.icon-icons.com/icons2/512/PNG/512/css3-02_icon-icons.com_50917.png" style="padding-right:10px;" />
 <img align="left" alt="" width="30px" src="https://cdn.icon-icons.com/icons2/2566/PNG/512/javascript_icon_153511.png" style="padding-right:10px;" />
 <img align="left" alt="" width="30px" src="https://cdn.icon-icons.com/icons2/3206/PNG/512/bootstrap_icon_195906.png" style="padding-right:0px;" />
+<img align="left" alt="" width="30px" src="https://www.svgrepo.com/show/147094/api.svg" style="padding-right:0px;" />
 
 </br>
 </br>
