@@ -1,5 +1,7 @@
 # Kyy Weather Project
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee200b18-cec2-4da3-a6da-9711c9730500/deploy-status)](https://app.netlify.com/sites/kyy-weather/deploys)
+
 ## Description
 
 kyy weather project is a site to find out the temperature in the area you choose, there is only weather and temperature.
