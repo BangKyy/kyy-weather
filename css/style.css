@@ -1,0 +1,467 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&family=Raleway:ital,wght@0,400;0,700;1,100&display=swap');
+
+body{
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    background: #e0e0e0;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 400px;
+    /*min-width: 400px;*/
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.form-rounded{
+    border-radius: 2em;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+.p-4{
+    padding: 1.5rem !important;
+}
+.shadow-sm{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5rem + 0.75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.back-card{
+    border-radius: 40px !important;
+}
+.city-name{
+    position: absolute;
+    width: 100%;
+}
+.city-name p{
+    font-size: 16pt;
+    font-weight: 400;
+}
+.city-name span{
+    font-weight: 400;
+    font-size: 36pt;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -60px;
+}
+.temp span{
+    font-weight: 100;
+    font-size: 5em;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+.card-mid{
+    line-height: 0.5;
+}
+.condition{
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+.high::before{
+    content: '';
+    background: url('/img/up.svg') no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.low::before{
+    content: '';
+    background: url('/img/down.svg') no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.icon-container{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #202020;
+}
+.icon-container img{
+    margin: auto;
+}
+.card-bottom{
+    line-height: 0.5;
+}
+.card-bottom span{
+    font-size: 12px;
+}
+.card-bottom p{
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+.footer{
+    position: absolute;
+    top: 56rem;
+    left: 41%;
+    transform: translate(0, 50%);
+    font-size: 0.7rem;
+    color: #e0e0e0;
+}
+.wave{
+    position: absolute;
+    bottom: -19rem;
+    left: 0;
+}
+
+/* MEDIA SCREEN */
+
+@media screen and (max-width: 360px) {
+    .container{
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .footer{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        height: 0;
+        top: 58.5rem;
+        font-size: 0.5rem;
+    }
+    .card-bottom{
+        margin-top: 1rem;
+        gap: 4rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .col-4{
+        margin-left: 5rem;
+        margin-top: 2.3rem;
+        width: 30%;
+        font-size: 0.7rem;
+    }
+    .col-8{
+        padding-top: 3rem;
+        width: 40%;
+    }
+    .col-8 span{
+        font-size: 3rem;
+    }
+    .wave{
+        bottom: -15.5rem;
+    }
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 359px) {
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+        top: 58.5rem;
+        width: 100%;
+        height: 0;
+        font-size: 0.6rem;
+    }
+    .wave{
+        bottom: -15rem;
+    }
+}*/
+
+@media screen and (min-width: 361px) and (max-width: 424px) {
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+        top: 55rem;
+        width: 100%;
+        height: 0;
+        font-size: 0.6rem;
+    }
+    .card-bottom{
+        margin-top: 1rem;
+        gap: 4rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .col-4{
+        margin-left: 6rem;
+        margin-top: 2.1rem;
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .col-8{
+        padding-top: 3rem;
+        width: 40%;
+    }
+    .col-8 span{
+        font-size: 4rem;
+    }
+    .wave{
+        bottom: -12rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 775px) {
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+        top: 64rem;
+        width: 100%;
+        height: 0;
+        font-size: 0.6rem;
+    }
+    .card-bottom{
+        margin-top: 1rem;
+        gap: 4rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .col-4{
+        margin-left: 6rem;
+        margin-top: 2.1rem;
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .col-8{
+        padding-top: 3rem;
+        width: 40%;
+    }
+    .col-8 span{
+        font-size: 4rem;
+    }
+    .wave{
+        bottom: -21rem;
+    }
+}
+
+/*@media screen and (min-width: 768px) and (max-width: 775px) {
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        height: 0;
+        text-align: center;
+        top: 120rem;
+        font-size: 1.5rem;
+    }
+    .card-bottom{
+        margin-top: 1rem;
+        gap: 7rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .col-4{
+        margin-left: 6rem;
+        margin-top: 2.1rem;
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .col-8{
+        padding-top: 3rem;
+        width: 40%;
+    }
+    .col-8 span{
+        font-size: 4rem;
+    }
+    .wave{
+        bottom: -24.4rem;
+    }
+}*/
+
+@media screen and (min-width: 776px) and (max-width: 1023px) {
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        height: 0;
+        text-align: center;
+        top: 135.5rem;
+        font-size: 1.5rem;
+    }
+    .card-bottom{
+        margin-top: 1rem;
+        gap: 7rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .col-4{
+        margin-left: 6rem;
+        margin-top: 2.1rem;
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .col-8{
+        padding-top: 3rem;
+        width: 40%;
+    }
+    .col-8 span{
+        font-size: 4rem;
+    }
+    .wave{
+        bottom: -24.4rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        height: 0;
+        text-align: center;
+        top: 120rem;
+        font-size: 1.5rem;
+    }
+    .card-bottom{
+        margin-top: 1rem;
+        gap: 7rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .col-4{
+        margin-left: 6rem;
+        margin-top: 2.1rem;
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .col-8{
+        padding-top: 3rem;
+        width: 40%;
+    }
+    .col-8 span{
+        font-size: 4rem;
+    }
+    .wave{
+        bottom: -22rem;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        height: 0;
+        text-align: center;
+        top: 60rem;
+        font-size: 0.8rem;
+    }
+    .card-bottom{
+        margin-top: 1rem;
+        gap: 7rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .col-4{
+        margin-left: 6rem;
+        margin-top: 2.1rem;
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .col-8{
+        padding-top: 3rem;
+        width: 40%;
+    }
+    .col-8 span{
+        font-size: 4rem;
+    }
+    .wave{
+        bottom: -15.4rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .container{
+        max-width: 800px;
+    }
+    .title{
+        font-size: 6rem;
+    }
+    .form-control{
+        width: 100%;
+        height: calc(5rem + 0.75rem + 1px);
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.5;
+        border: 1px solid #ced4da;
+    }
+    .city-name p{
+        font-size: 3rem;
+    }
+    .city-name span{
+        font-size: 5rem;
+        top: -100px;
+    }
+    .icon-container{
+        width: 30%;
+        height: 50%;
+    }
+    .icon-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .col-4{
+        margin-left: 16rem;
+        width: 25%;
+        font-size: 2rem;
+    }
+    .card-bottom{
+        gap: 20rem;
+    }
+    .col-8{
+       width: 40%; 
+       padding-top: 2rem;
+    }
+    .card-body{
+        height: 35rem;
+        padding-top: 5rem;
+    }
+    .col p{
+        font-size: 5rem;
+    }
+    .col span{
+        font-size: 1.5rem;
+    }
+    .footer{
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        height: 0;
+        text-align: center;
+        top: 98rem;
+        font-size: 2rem;
+    }
+    .wave{
+        bottom: -20rem;
+    }
+}
