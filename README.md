@@ -29,6 +29,9 @@ Before you start, ensure you have your own [OpenWeather API-Key](http://openweat
 <img align="left" alt="" width="30px" src="https://cdn.icon-icons.com/icons2/2566/PNG/512/javascript_icon_153511.png" style="padding-right:10px;" />
 <img align="left" alt="" width="30px" src="https://cdn.icon-icons.com/icons2/3206/PNG/512/bootstrap_icon_195906.png" style="padding-right:0px;" />
 
+</br>
+</br>
+
 ## Show your support
 
 Give a star if you like this project!
