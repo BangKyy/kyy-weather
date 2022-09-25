@@ -1,6 +1,6 @@
 # Kyy Weather Project
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ee200b18-cec2-4da3-a6da-9711c9730500/deploy-status)](https://app.netlify.com/sites/kyy-weather/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1d9d480-f4cc-4c9e-a6e9-a49b281d2a4f/deploy-status)](https://app.netlify.com/sites/kyy-weather/deploys)
 
 ## Description
 
